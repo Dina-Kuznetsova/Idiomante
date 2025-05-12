@@ -28,7 +28,9 @@ Telegram-бот для изучения и повторения итальянс
     ```
     
 3. Запустите проект:
-docker-compose up --build
+   ```
+   docker-compose up --build
+   ```
 
 ## Структура проекта 
 ```
