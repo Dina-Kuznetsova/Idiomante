@@ -76,22 +76,22 @@ async def start(message: types.Message):
 
 @dp.message(F.text.lower() == "/help")
 async def helpeng(message: types.Message):
-    await message.reply("Место для текста о помощи!")
+    await message.reply("Вот список доступных команд:\n/start - Начать работу с ботом.\n/help - Показать это сообщение.\n/about - Узнать больше о боте.")
 
 
 @dp.message(F.text.lower() == "помощь")
 async def helprus(message: types.Message):
-    await message.reply("Место для текста о помощи!")
+    await message.reply("Вот список доступных команд:\n/start - Начать работу с ботом.\n/help - Показать это сообщение.\n/about - Узнать больше о боте.")
 
 
 @dp.message(F.text.lower() == "/about")
 async def abouteng(message: types.Message):
-    await message.reply("Место для текста о проекте!")
+    await message.reply("Данный бот создан для изучения итальянских идиом с помощью флеш-карточек")
 
 
 @dp.message(F.text.lower() == "о проекте")
 async def aboutrus(message: types.Message):
-    await message.reply("Место для текста о проекте!")
+    await message.reply("Данный бот создан для изучения итальянских идиом с помощью флеш-карточек")
 
 
 @dp.message(F.text.lower() == "профиль")
